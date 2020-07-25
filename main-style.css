@@ -97,6 +97,32 @@ main {
     padding: 1em;
 }
 
+#visit-main h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+    text-align: center;
+    background-color: tomato;
+    padding: .5em;
+}
+
+#visit-main h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+}
+
+#when-wrapper {
+    display: flex;
+}
+
+#when-wrapper div {
+    padding: 0 1em;
+    border-left: 2px solid #839D9A;
+}
+
+#when-wrapper div:first-child {
+    margin-right: 3em;
+}
+
 /* Image carousel */
 #img-carousel {
     height: 400px;
